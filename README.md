@@ -1,0 +1,3 @@
+# DataGrab Project
+
+A tool that we can run on computers in order to obtain keystrokes, screenshots, and clipboard data. If a command line argument is provided, exceptions are handled with print statements and there is a means to exit the program. However, if no command line argument is provided, exceptions are handled silently and there is no way to close the program. It will run in the background until the user logs out, or the program's process id has been killed.
